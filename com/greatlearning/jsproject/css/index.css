@@ -1,0 +1,53 @@
+h1 {
+    margin-left: 40%;
+    margin-top: 5%;
+    color: blue;
+}
+
+#content {
+    margin-left: 40%;
+}
+
+.addedTask {
+    display: inline-block;
+    width: 30%;
+    overflow: scroll;
+    height: 35px;
+    margin-top: 25px;
+    vertical-align: bottom;
+}
+
+#task_input, .editTaskInput {
+    width: 30%;
+    height: 35px;
+}
+
+.editTaskInput {
+    margin-top: 25px;
+}
+
+#addTask {
+
+    background-color: blue;
+}
+
+#task_input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+input[type="button"] {
+    height: 35px;
+    margin-left: 10px;
+    width: 8%;
+    color: white;
+    border-radius: 5px;
+}
+
+.editTask, .saveTask {
+    background-color: green;
+}
+
+.deleteTask, .cancelEdit {
+
+    background-color: red;
+}

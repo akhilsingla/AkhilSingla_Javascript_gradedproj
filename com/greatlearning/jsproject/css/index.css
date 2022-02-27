@@ -27,7 +27,6 @@ h1 {
 }
 
 #addTask {
-
     background-color: blue;
 }
 
@@ -48,6 +47,5 @@ input[type="button"] {
 }
 
 .deleteTask, .cancelEdit {
-
     background-color: red;
 }
